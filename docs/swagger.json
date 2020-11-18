@@ -1,0 +1,21 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "This is a s3transfer agent server.",
+        "title": "AgentServer API",
+        "termsOfService": "http://www.ditto.co.jp",
+        "contact": {
+            "name": "API Support",
+            "url": "ditto.co.jp/support",
+            "email": "support@ditto.co.jp"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1.0"
+    },
+    "host": "www.ditto.co.jp",
+    "basePath": "/v2",
+    "paths": {}
+}
