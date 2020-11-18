@@ -87,7 +87,10 @@ job_size=300
 partsize = 5
 thread = 5
 ```
-list_buffer_size - is a buffer size to list the s3.
-job_size - is a split size of the list. then disptach the download job(files) to idle-agent.
-partsize - is the aws multi-part transfer chunk size in MB.
-thread - is the transfer thread.
+
+| Item | Content |
+|- |- |
+|list_buffer_size | - is a buffer size to list the s3. |
+|job_size | - is a split size of the list. then disptach the download job(files) to idle-agent. |
+|partsize | - is the aws multi-part transfer chunk size in MB. |
+|thread | - is the transfer thread. |
