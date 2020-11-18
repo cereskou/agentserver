@@ -68,7 +68,7 @@ time="2020-11-18T18:41:35+09:00" level=debug msg="http server started on 0.0.0.0
 ```
 
 ### Download
---distributed will start the download process on agent node.<br>
+use --distributed will start the download process on agent node.<br>
 the data will saved to master pc's c:\tmp\data if you are not specified the target by using --storage. <br>
 --storage can be a agent or master.
 
