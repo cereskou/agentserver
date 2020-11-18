@@ -76,3 +76,18 @@ the data will saved to master pc's c:\tmp\data if you are not specified the targ
 agentserver.exe --dir c:\tmp\data --s3 s3://dittos/days/09/21 --distributed --master 192.168.50.113
 ```
 
+It will start multi-thread when download s3 file. and you can change the config file to set the thread number(goroutines)
+
+```
+app.config
+
+[distributed]
+list_buffer_size = 5000
+job_size=300
+partsize = 5
+thread = 5
+```
+list_buffer_size - is a buffer size to list the s3.
+job_size - is a split size of the list. then disptach the download job(files) to idle-agent.
+partsize - is the aws multi-part transfer chunk size in MB.
+thread - is the transfer thread.
