@@ -56,7 +56,7 @@ time="2020-11-18T18:41:51+09:00" level=trace msg="192.168.50.113:9091 is alive"
 ```
 
 ### Execute in agent mode
-Multiple agents can be started on others machine.And the agent will registerate to the master by using broadcast.
+Multiple agents can be started on others machine. And the agent will automatically register the master by using broadcast message.
 
 ```
 agentserver.exe --cmd agent --log trace
