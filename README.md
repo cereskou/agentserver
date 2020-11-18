@@ -38,7 +38,7 @@ Help Options:
 agentserver.exe --dir c:\tmp\data --s3 s3://dittos/days/09/21 
 
 ## Multi-Nodes mode
-![mode](https://raw.githubusercontent.com/cereskou/agentserver/images/layout.png)
+![mode](https://github.com/cereskou/agentserver/blob/main/images/layout.png)
 
 ### Execute in master mode
 ```
