@@ -1,0 +1,16 @@
+basePath: /v2
+host: www.ditto.co.jp
+info:
+  contact:
+    email: support@ditto.co.jp
+    name: API Support
+    url: ditto.co.jp/support
+  description: This is a s3transfer agent server.
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://www.ditto.co.jp
+  title: AgentServer API
+  version: "1.0"
+paths: {}
+swagger: "2.0"
