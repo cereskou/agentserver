@@ -1,5 +1,5 @@
 # agentserver
-S3 transfer(download) in multi-nodes. It's so fast in multi-mode.
+S3 transfer(download) in multi-nodes. It's a fast way to download file from S3 to local.
 
 ## Single mode 
 ### How to use
@@ -35,7 +35,9 @@ Help Options:
   /h, /help          Show this help message
 ```
 
-agentserver.exe --dir c:\tmp\data --s3 s3://dittos/days/09/21 
+**download s3://dittos/days/09/21 to c:\tmp\data.**<br>
+agentserver.exe --dir c:\tmp\data --s3 s3://dittos/days/09/21 <br>
+
 
 ## Multi-Nodes mode
 ![mode](https://github.com/cereskou/agentserver/blob/main/images/layout.png)
@@ -67,7 +69,8 @@ time="2020-11-18T18:41:35+09:00" level=debug msg="http server started on 0.0.0.0
 
 ### Download
 --distributed will start the download process on agent node.<br>
-the data will saved to master pc's c:\tmp\data if you are not specified the target by using --storage. --storage can be a agent or master.
+the data will saved to master pc's c:\tmp\data if you are not specified the target by using --storage. <br>
+--storage can be a agent or master.
 
 ```
 agentserver.exe --dir c:\tmp\data --s3 s3://dittos/days/09/21 --distributed --master 192.168.50.113
